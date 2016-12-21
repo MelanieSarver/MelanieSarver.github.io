@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Marcellus+SC" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/personal.css">
+</head>
+<body>
+<div class="fluid-container">
+    <nav class="navbar navbar-default navbar-fixed-top local-nav">
+        <div class="container">
+            <a class="navbar-brand link" href="http://codeup.com" target="_blank">
+                <img alt="Codeup" src="img/codeup-arrow.png">
+            </a>
+            <a href="index.html" class="link">Home</a>
+            <a href="resume.html" class="link">Resume</a>
+            <a href="portfolio.html" class="link">Portfolio</a>
+        </div>
+    </nav>
+</div> <!--fluid container-->
+    <main class="cd-main-content">
+        <div class="cd-fixed-bg cd-bg-1">
+            <h1>Resume</h1>
+        </div> <!--fixed image background-->
+        <div class="cd-scrolling-bg cd-color-1">
+            <div class="cd-container">
+                <ul class="nav nav-tabs local-tabs">
+                    <li role="presentation" class="active"><a href="#1a">Home</a></li>
+                    <li role="presentation"><a href="#2a">Relevant Skills</a></li>
+                    <li role="presentation"><a href="#3a">Education</a></li>
+                    <li role="presentation"><a href="#4a">Work Experience</a></li>
+                    <li role="presentation"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Download<span class="caret"></span>
+                    </a>
+                        <ul class="dropdown-menu">
+                            <a href="#">Resume.pdf</a>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="1a">
+                        <h3>Objective:</h3>
+                        <p>Obtain a position with a team oriented company that will enable me to utilize the skills I have learned and improve upon them with the teachings and guidance of the development team.
+                        </p>
+                    </div>
+                    <div class="tab-pane" id="2a">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane" id="3a">
+                        <h3>CodeUp</h3>
+                        <p>Niagara Cohort</p>
+                        <h3>Bachelor Of Fine Arts</h3>
+                        <p>Northwest Missouri State University</p>
+                    </div>
+                    <div class="tab-pane" id="4a">
+                        <h3>Aspen Dental</h3>
+                        <p>Registered Dental Assistant</p>
+                        <h3>Red Cross Volunteer</h3>
+                        <p>Dental Assistant</p>
+                        <h3>United States Navy Reserve</h3>
+                        <h3>Administrative Assistant</h3>
+                        <h3>Retail Store Manager</h3>
+                    </div>
+                </div><!--tab-content-->
+            </div><!--cd-container (nav tabs and content)-->
+        </div><!--cd-scrolling-bg cd-color-1-->
+    </main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script>
+    $('.nav-tabs a').click(function(e) {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+</script>
+</body>
+</html>
