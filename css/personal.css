@@ -19,7 +19,7 @@ body, html {
     font-size: 3em;
     border-color: #6bc8c9;
 }
-a {
+.link {
     color: #ff513f;
     padding: 10px 15px;
     border-right:2px solid #ff513f;
@@ -78,7 +78,6 @@ a {
     width: 90%;
     max-width: 1170px;
     text-align: center;
-    /*font-size: 30px;*/
     font-size: 2em;
     text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
     color: white;
