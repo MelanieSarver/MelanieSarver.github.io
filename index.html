@@ -26,9 +26,6 @@
         <h1>Melanie Sarver</h1>
     </div> <!-- cd-fixed-bg -->
     <div class="cd-scrolling-bg cd-color-1">
-        <!--<div>-->
-        <!--<img src="img/portrait.jpg" class="img-circle portrait">-->
-        <!--</div>-->
         <div class="cd-container">
             <p>
                 Thank you for taking the time to view my page. First things first, I would like to let you know a little
@@ -52,25 +49,16 @@
     </div> <!-- cd-fixed-bg -->
     <div class="cd-scrolling-bg cd-color-1">
         <div class="cd-container">
-            <form id="contact-form" class="message-me" method="post" action="contact.php" role="form">
+            <form id="contact-form" class="message-me" method="post" action="https://formspree.io/melanie.sarver@gmail.com" role="form">
                 <div class="messages"></div>
                 <div class="controls">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="form_name">First Name *</label>
+                                <label for="form_name">Name *</label>
                                 <input id="form_name" type="text" name="name" class="form-control"
                                        placeholder="Please enter your first name *" required="required"
                                        data-error="Firstname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_lastname">Last Name *</label>
-                                <input id="form_lastname" type="text" name="surname" class="form-control"
-                                       placeholder="Please enter your last name *" required="required"
-                                       data-error="Lastname is required.">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
@@ -79,7 +67,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label for="form_email">Email *</label>
-                                <input id="form_email" type="email" name="email" class="form-control"
+                                <input id="form_email" type="email" name="_replyto" class="form-control"
                                        placeholder="Please enter your email *" required="required"
                                        data-error="Valid email is required.">
                                 <div class="help-block with-errors"></div>
@@ -105,7 +93,7 @@
                             </div>
                         </div>
                         <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send buttons" value="Send message">
+                            <input type="submit" class="btn btn-success btn-send buttons" value="Send">
                         </div>
                     </div>
                 </div> <!--controls-->
