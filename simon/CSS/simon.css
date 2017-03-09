@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+}
+h1{
+    color: #fff;
+}
+#game{
+    position:relative;
+    width:600px;
+    height:600px;
+    margin:0 auto;
+}
+.quarter {
+    position:absolute;
+    width:50%;
+    height:50%;
+}
+#orange{
+    top: 0;
+    left: 0;
+    /*border:1px solid #000;*/
+    background: orange;
+    border-radius: 100% 0 0 0;
+}
+#blue{
+    top: 0;
+    right: 0;
+    /*border:1px solid #000;*/
+    background: blue;
+    border-radius: 0 100% 0 0;
+}
+#green{
+    bottom: 0;
+    right: 0;
+    /*border:1px solid #000;*/
+    background: green;
+    border-radius: 0 0 100% 0;
+}
+#red{
+    bottom: 0;
+    left: 0;
+    /*border:1px solid #000;*/
+    background: red;
+    border-radius: 0 0 0 100%;
+}
+.glow {
+    box-shadow:
+            0 0 60px 30px #fff, /* inner white */
+            0 0 100px 60px #fff88d, /* middle magenta */
+            0 0 140px 90px #645fff; /* outer cyan */
+}

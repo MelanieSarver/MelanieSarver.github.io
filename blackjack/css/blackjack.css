@@ -1,0 +1,72 @@
+.wrapper {
+    width: 800px;
+    height: 750px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    background-color: #000050;
+}
+
+.controls {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Diplomata', cursive;
+    color: #EA96C1;
+}
+
+.card {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    width: 150px;
+    height: 220px;
+    border-radius: 10px;
+    background: #fff;
+    -webkit-box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
+}
+
+.card p {
+    text-align: center;
+    color: #95A6DB;
+    font: 100px Georgia, Times New Roman, serif;
+    margin-top: 50px;
+}
+
+.suitdiamonds:before, .suitdiamonds:after {
+    content: "♦";
+    color: #EA96C1;
+}
+
+.suithearts:before, .suithearts:after {
+    content: "♥";
+    color: #EA96C1;
+}
+
+.suitspades:before, .suitspades:after {
+    content: "♠";
+    color: #72D38F;
+}
+
+.suitclubs:before, .suitclubs:after {
+    content: "♣";
+    color: #72D38F;
+}
+
+div[class*='suit']:before {
+    position: absolute;
+    font-size: 35px;
+    left: 5px;
+    top: 5px;
+}
+
+div[class*='suit']:after {
+    position: absolute;
+    font-size: 35px;
+    right: 5px;
+    bottom: 5px;
+}
