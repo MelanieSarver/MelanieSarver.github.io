@@ -13,6 +13,7 @@
     margin: auto;
 }
 
+
 h1 {
     font-family: 'Diplomata', cursive;
     color: #EA96C1;
@@ -30,7 +31,7 @@ h1 {
     box-shadow: 3px 3px 7px rgba(0,0,0,0.3);
 }
 
-.card p {
+.value {
     text-align: center;
     color: #95A6DB;
     font: 100px Georgia, Times New Roman, serif;
