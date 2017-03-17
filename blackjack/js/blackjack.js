@@ -14,7 +14,15 @@ $(document).ready(function() {
             }
         };
         this.getSuit = function () {
-            return suit;
+            if (suit == 1) {
+                return 'suitdiamonds';
+            } else if (suit == 2) {
+                return 'suithearts';
+            } else if (suit == 3) {
+                return 'suitspades';
+            } else {
+                return 'suitclubs';
+            }
         }
     };
 
@@ -31,9 +39,16 @@ $(document).ready(function() {
 //enables hit me to add new cards to hand.
     var Hand = function () {
         var cards = [deal().getValue(), deal().getValue()];
+        var suits = [deal().getSuit(), deal().getSuit()];
+
         this.getHand = function () {
             return cards;
         };
+
+        this.getIcon = function() {
+            return suits;
+        };
+
         this.score = function () {
             return this.getHand().reduce(function (a, b) {
                 return a + b;
@@ -41,6 +56,7 @@ $(document).ready(function() {
         };
         this.hitMe = function () {
             cards.push(deal().getValue());
+            suits.push(deal().getSuit());
             return this.score();
         }
     };
@@ -59,6 +75,14 @@ $(document).ready(function() {
         if (enableClicks) {
             player = new Hand();
             dealer = new Hand();
+            $.each(dealer.getHand(), function(i, value) {
+                $('.dealer').append($('<div class="card">').append($('<p class="value">').html(value)));
+            });
+            $.each(player.getHand(), function(i, value) {
+                $('.player').append($('<div class="card ' + $.each(player.getIcon(), function(i, value) {
+                            return $(this).value;
+                        }) + '">').append($('<p class="value">').html(value)));
+            });
             console.log("Player: " + player.score());
             console.log("Dealer: " + dealer.score());
             if (player.score() == 21) {
