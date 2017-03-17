@@ -3,13 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>Simon</title>
-    <link rel="stylesheet" href="CSS/simon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/simon.css">
 </head>
 <body>
-<h1>Simon</h1>
-<div id="game"></div>
-<button class="btn">Start</button>
+<nav class="grey z-depth-5">
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo center">SIMON</a>
+        <ul id="nav-mobile" class="right">
+            <li><a href="#">LEVEL: <span id="level">0</span></a></li>
+            <li><a class="waves-effect waves-light btn-large"><i class="material-icons right">cloud</i>START</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div id="game" class="col s12 m6 l4"></div>
+</div>
+
+
 <script src="js/jquery-2.2.4.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
 <script src="js/simon.js"></script>
 </body>
 </html>
