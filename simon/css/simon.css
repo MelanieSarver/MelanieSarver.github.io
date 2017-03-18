@@ -35,8 +35,8 @@ body {
     -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     background: #fff;
-    -webkit-transform: rotateZ(-45deg)   ;
-    transform: rotateZ(-45deg)   ;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
 }
 
 #blue {
@@ -51,8 +51,8 @@ body {
     -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     background: #c5cae9;
-    -webkit-transform: rotateZ(-45deg)   ;
-    transform: rotateZ(-45deg)   ;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
 }
 
 #cyan {
@@ -67,8 +67,8 @@ body {
     -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     background: #80deea;
-    -webkit-transform: rotateZ(-45deg)   ;
-    transform: rotateZ(-45deg)   ;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
 }
 
 #teal {
@@ -83,6 +83,6 @@ body {
     -webkit-border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     border-radius: 80% 0 55% 50% / 55% 0 80% 50%;
     background: #80cbc4;
-    -webkit-transform: rotateZ(-45deg)   ;
-    transform: rotateZ(-45deg)   ;
+    -webkit-transform: rotateZ(-45deg);
+    transform: rotateZ(-45deg);
 }
