@@ -14,6 +14,17 @@ $(document).ready(function(){
         enableClicks = bool;
     }
 
+    //modal initialization and options
+    $('.modal').modal({
+        dismissible: true,
+        opacity: .5,
+        inDuration: 300,
+        outDuration: 200,
+        startingTop: '4%',
+        endingTop: '10%'
+
+    });
+
     //Draws game paddles in html document
     var quarter = "";
     shapes.forEach(function(object){
@@ -61,7 +72,7 @@ $(document).ready(function(){
                     newLevel();
                 }
             } else {
-                alert('you lose');
+                $('#modal1').modal('open');
                 simon = [];
                 player = [];
                 level = 0;
