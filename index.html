@@ -1,116 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Welcome</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Roboto" rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <title>m sarver</title>
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
     <link rel="stylesheet" href="css/personal.css">
 </head>
 <body>
-<div class="fluid-container">
-    <nav class="navbar navbar-default navbar-fixed-top local-nav">
-        <div class="container">
-            <a class="navbar-brand link" href="http://codeup.com" target="_blank">
-                <img alt="Codeup" src="img/codeup-arrow.png">
-            </a>
-            <a href="index.html" class="link">Home</a>
-            <a href="resume.html" class="link">Resume</a>
-            <a href="portfolio.html" class="link">Portfolio</a>
+<main>
+    <div class="parallax-container">
+        <h1 id="signature" class="white-text center-align">Melanie Sarver</h1>
+        <div class="parallax">
+            <img src="img/fountainhead.jpg"/>
         </div>
-    </nav>
-</div>
-<main class="cd-main-content">
-    <div class="cd-fixed-bg cd-bg-1">
-        <h1 id="signature">Melanie Sarver</h1>
-    </div> <!-- cd-fixed-bg -->
-    <div class="cd-scrolling-bg cd-color-1">
-        <div class="cd-container">
-            <p>
-                I'm a brand-new, shiny software developer, who has recently graduated from Codeup in San Antonio, TX. As they
-                say, "I wasn't born in Texas, but I got here as fast as I could!"  I was brought here for the first time by my
-                husband's Army career, and now, several moves later, we are back and here to stay! I'm very excited to put down
+    </div>
+    <div class="section teal lighten-2">
+        <div class="row container bio">
+            <h2 class="header grey-text text-darken-3">Bio</h2>
+            <p class="grey-text text-darken-3 lighten-3">
+                I'm a brand-new, shiny software developer, who has recently graduated from Codeup in San Antonio, TX. As
+                they
+                say, "I wasn't born in Texas, but I got here as fast as I could!" I was brought here for the first time
+                by my
+                husband's Army career, and now, several moves later, we are back and here to stay! I'm very excited to
+                put down
                 some real roots and start writing my new story.
             </p>
-            <p>
-                The purpose of this page is for you to get to know a little bit about me by checking out some of the projects
-                that I've been working on. Some of the work you'll see is complete, and some of it is ongoing work in progress.
-                I had virtually no coding experience a few months ago. If you'd like to see how I'm growing and changing, go
+            <p class="grey-text text-darken-3 lighten-3">
+                The purpose of this page is for you to get to know a little bit about me by checking out some of the
+                projects
+                that I've been working on. Some of the work you'll see is complete, and some of it is ongoing work in
+                progress.
+                I had virtually no coding experience a few months ago. If you'd like to see how I'm growing and
+                changing, go
                 poke around my GitHub!
             </p>
-            <p>
-                Front-end || Back-end is a good question that I don't have a simple answer to. Five months ago my answer was
-                whole-heartedly front-end. Afterall, I had the perseverance to get a Bachelor's in Graphic Design, so what else
-                could I be?  Then, I met Java, and found that I'm surprisingly attracted to the logic.
+            <p class="grey-text text-darken-3 lighten-3">
+                Front-end || Back-end is a good question that I don't have a simple answer to. Five months ago my answer
+                was
+                whole-heartedly front-end. After all, I had the perseverance to get a Bachelor's in Graphic Design, so
+                what else
+                could I be? Then, I met Java, and found that I'm surprisingly attracted to the logic.
             </p>
-        </div> <!-- cd-container -->
-    </div> <!-- cd-scrolling-bg -->
-    <div class="cd-fixed-bg cd-bg-1">
-        <h2>Contact</h2>
-    </div> <!-- cd-fixed-bg -->
-    <div class="cd-scrolling-bg cd-color-1">
-        <div class="cd-container">
-            <form id="contact-form" class="message-me" method="post" action="https://formspree.io/melanie.sarver@gmail.com" role="form">
-                <div class="messages"></div>
-                <div class="controls">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_name">Name *</label>
-                                <input id="form_name" type="text" name="name" class="form-control"
-                                       placeholder="Please enter your first name *" required="required"
-                                       data-error="Firstname is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/fountainhead.jpg"/>
+        </div>
+    </div>
+    <div class="section teal lighten-3">
+        <div class="row container">
+            <h2 class="header grey-text text-darken-3">Portfolio</h2>
+            <div class="row col s12 m12 l12">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/calculator.png">
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_phone">Phone Number</label>
-                                <input id="form_phone" type="text" name="phone" class="form-control"
-                                       placeholder="Please enter your phone number">
-                                <div class="help-block with-errors"></div>
-                            </div>
+                        <div class="card-content">
+                            <span class="card-title">Calculator</span>
+                            <p>
+                                A simple web based calculator created using JavaScript with jQuery, CSS3, Bootstrap, and HTML.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="calculator/calculator.html" class="red-text text-lighten-3">SEE IT IN ACTION</a>
+                            <a target="_blank" href="https://github.com/MelanieSarver/Calculator" class="red-text text-lighten-3">GitHub</a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="form_email">Email *</label>
-                                <input id="form_email" type="email" name="_replyto" class="form-control"
-                                       placeholder="Please enter your email *" required="required"
-                                       data-error="Valid email is required.">
-                                <div class="help-block with-errors"></div>
-                            </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/simon.png">
                         </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <label for="subject">Subject</label>
-                                <input id="subject" type="tel" name="_subject" class="form-control"
-                                       placeholder="Subject">
-                                <div class="help-block with-errors"></div>
-                            </div>
+                        <div class="card-content">
+                            <span class="card-title">SIMON</span>
+                            <p>
+                                A fully functioning version of the classic ‘80s memory game with a rainy day theme,
+                                created
+                                utilizing JavaScript, jQuery, Materialize, CSS3, and HTML.
+                            </p>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="form_message">Message *</label>
-                                <textarea id="form_message" name="message" class="form-control"
-                                          placeholder="Salutations and such *" rows="4" required="required"
-                                          data-error="Please,leave us a message."></textarea>
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <input type="submit" class="btn btn-success btn-send buttons" value="Send">
+                        <div class="card-action">
+                            <a target="_blank" href="simon/simon.html" class="red-text text-lighten-3">SEE IT IN ACTION</a>
+                            <a target="_blank" href="https://github.com/MelanieSarver/simple-simon" class="red-text text-lighten-3">GitHub</a>
                         </div>
                     </div>
-                </div> <!--controls-->
-                <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/weather-map.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Weather API</span>
+                            <p>
+                                Using HTML, CSS, jQuery, ajax, and the OpenWeatherMap API, I created a little weather web application
+                                that displays the three day forecast for San Antonio, TX. I also implemented Google Maps and a search bar,
+                                so that users can get the forecast for other locations.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="weather/weather-map.html" class="red-text text-lighten-3">SEE IT IN ACTION</a>
+                            <a target="_blank" href="https://github.com/MelanieSarver/Codeup-Web-Exercises/blob/master/weather_map.html" class="red-text text-lighten-3">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row col s12 m12 l12">
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/blackjack.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Blackjack</span>
+                            <p>
+                                A little side project I've been working on is a simple blackjack game. Originally based solely in
+                                JavaScript with jQuery to run on the console, I'm currently beginning to incorporate HTML
+                                and CSS to animate cards on the screen.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="blackjack/blackjack.html" class="red-text text-lighten-3">SEE IT IN ACTION</a>
+                            <a target="_blank" href="https://github.com/MelanieSarver/blackjack" class="red-text text-lighten-3">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/full-plate.png">
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Full Plate</span>
+                            <p>
+                                Front-end developer for a Java based menu planner web application in a team environment,
+                                utilizing Spring Boot, Thymeleaf, Hibernate, JS, jQuery, CSS3, Materialize, and HTML5.
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="http://full-plate.us" class="red-text text-lighten-3">SEE IT IN ACTION</a>
+                            <a target="_blank" href="https://github.com/MelYoAb/CookPlanner" class="red-text text-lighten-3">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/fountainhead.jpg"></div>
+    </div>
+    <div class="section teal lighten-4">
+        <div class="row container">
+            <h2 class="header grey-text text-darken-3">Resume</h2>
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs">
+                        <li class="tab"><a href="#summary">Summary</a></li>
+                        <li class="tab"><a href="#skills">Skills</a></li>
+                        <li class="tab"><a href="#education">Education</a></li>
+                        <li class="tab"><a href="#experience">Work Experience</a></li>
+                        <li class="tab"><a target="_blank" href="http://alumni.codeup.com/uploads/304-1489034260.pdf">Printable
+                            pdf</a></li>
+                    </ul>
+                </div>
+                <div id="summary" class="col s12 m8 l8 offset-m2 l8 offset-l2 center-align tab-height valign-wrapper">
+                    <p class="grey-text text-darken-3 lighten-3">
+                        Software developer transitioning from 8 years as a dental assistant and retail manager to a
+                        career in programming on a team that shares my commitment to teamwork, creativity, and learning
+                        new technologies.
+                    </p>
+                </div>
+                <div id="skills" class="col s12 m8 offset-m3 l8 offset-l3 center-align tab-height valign-wrapper">
+                    <p class="grey-text text-darken-3 lighten-3">
+                        <strong>Front-end</strong><br/>
+                        JavaScript | jQuery | Bootstrap | Materialize | CSS3 | HTML5<br/><br/>
+                        <strong>Back-end</strong><br/>
+                        Java | Spring Boot | Thymeleaf | MySQL | Hibernate | Apache Maven
+                    </p>
+                </div>
+                <div id="education" class="col s12 tab-height">
+                    <p class="grey-text text-darken-3 lighten-3">
+                        <strong>CodeUp</strong><br/>
+                        <em>October 2016 - March 2017</em><br/>
+                        Certificate of Completion<br/>
+                        Immersive 16 - week program consisting of 536+ hours of curriculum and building real world
+                        projects.<br/><br/>
+                        <strong>Red Cross Dental Assisting Program</strong><br/>
+                        <em>September 2012 - May 2013</em><br/>
+                        Dental Assisting Certificate<br/>
+                        Dental Assisting Certificate
+                        Volunteered 900+ hours in the US Army dental clinics in Fort Polk, LA<br/><br/>
+                        <strong>Northwest Missouri State University</strong><br/>
+                        <em>August 1996 - April 2000</em><br/>
+                        Bachelor Of Fine Arts<br/>
+                        Bachelor of Fine Arts - Graphic Design Emphasis<br/>
+                        The Bachelor of Fine Arts with a Comprehensive Major in Art is a program emphasizing
+                        professional preparation within the studio areas.<br/>
+
+                        The comprehensive specialization in graphic design provides introductory and advanced study
+                        in graphic design, drawing, painting, electronic media, photography, ceramics, printmaking,
+                        jewelry
+                        design, 3-dimensional design, sculpture, and art history.
+                    </p>
+                </div>
+                <div id="experience" class="col s12 tab-height">
+                    <p class="grey-text text-darken-3 lighten-3">
+                        <strong>Registered Dental Assistant</strong><br/>
+                        Aspen Dental<br/>
+                        Performed and analyzed diagnostic digital radiographs, ensured
+                        patient comfort and safety, proper operatory setup, made
+                        impressions, cast models, and maintained records using ADC
+                        (Aspen Dental Charting) application software.<br/><br/>
+                        <strong>Logistics Specialist</strong><br/>
+                        United States Navy Reserve<br/>
+                        Managed logistics, and supply chain for equipment vital to the
+                        success of the mission of the Western Pacific Fleet, and maintained
+                        service records for 80+ sailors to ensure unit readiness.<br/><br/>
+                        <strong>Retail Store Manager</strong><br/>
+                        Claire's Accessories<br/>
+                        Transformed a high-turnover, low-revenue location into one that
+                        generated profit with a stable, competent staff in less than a year.
+                        Directed all administrative tasks involved in the day to day operation
+                        of a retail store, including scheduling, budgeting goals, inventory
+                        management, and loss prevention.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax"><img src="img/fountainhead.jpg"></div>
+    </div>
+    <div class="section teal lighten-5">
+        <div class="row container">
+            <h2 class="header grey-text text-darken-3">Contact</h2>
+            <form id="contact-form" class="row s12 m12 l12" method="post"
+                  action="https://formspree.io/melanie.sarver@gmail.com" role="form">
+                <div class="row">
+                    <div class="input-field col s6 m6 l6">
+                        <label for="form_name">Name *</label>
+                        <input id="form_name" type="text" name="name" required/>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                        <label for="form_phone">Phone Number</label>
+                        <input id="form_phone" type="text" name="phone"/>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s6 m6 l6">
+                        <label for="form_email">Email *</label>
+                        <input id="form_email" type="email" class="validate" name="_replyto" required/>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="input-field col s6 m6 l6">
+                        <label for="subject">Subject</label>
+                        <input id="subject" class="form-border" type="tel" name="_subject"/>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12 m12 l12">
+                        <textarea id="form_message" name="message" class="materialize-textarea" type="text"
+                                  required></textarea>
+                        <label for="form_message">Message *</label>
+                    </div>
+                </div>
+                <input type="submit" class="waves-effect waves-light btn red lighten-3" value="Send">
+                <p class="grey-text"><strong>*</strong> These fields are required.</p>
             </form> <!--contact-form-->
-        </div> <!-- cd-container -->
-    </div> <!-- cd-scrolling-bg -->
-</main> <!-- cd-main-content -->
+        </div>
+    </div>
+</main>
+<footer class="page-footer teal lighten-2">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Thanks for visiting!</h5>
+                <blockquote class="grey-text text-lighten-4">
+                    “A river cuts through rock, not because of its power, but because of its persistence.”<br />
+                    — Jim Watkins
+                </blockquote>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <ul>
+                    <li><a target="_blank" class="grey-text text-lighten-3" href="https://www.linkedin.com/in/melanie-sarver/">LinkedIn</a></li>
+                    <li><a target="_blank" class="grey-text text-lighten-3" href="https://github.com/MelanieSarver">GitHub</a></li>
+                    <li><a target="_blank" class="grey-text text-lighten-3" href="http://alumni.codeup.com/students/313">Codeup</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            © 2017 Copyright
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.js"></script>
+<script src="js/personal.js"></script>
 </body>
 </html>
