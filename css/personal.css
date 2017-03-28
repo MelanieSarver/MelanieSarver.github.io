@@ -1,148 +1,49 @@
-html * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-body {
-    background-color: #0a0a0a;
-    width: 100%;
-    height: 100%;
-    font-size: 100%;
-    font-family: 'Roboto', sans-serif;
-    color: #141414;
-}
-body, html {
-     /*important. seems redundant, but code breaks without it */
-    height: 100%;
-}
-
 #signature {
-    font-family: 'Nothing You Could Do', cursive;;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 5em;
+    z-index: 5;
+    padding-top: 150px;
 }
 
-.local-nav {
-    height: 75px;
-    padding-top: 15px;
-    background-color: #6bc8c9;
-    font-size: 3em;
-    border-color: #6bc8c9;
-}
-.link {
-    color: #ff513f;
-    padding: 10px 15px;
-    border-right:2px solid #ff513f;
+.tab-height {
+    height: 406px;
 }
 
-.link:first-child {
-    border-right: none;
+.bio {
+    padding-bottom: 40px;
 }
 
-.link:last-child {
-    border-right: none;
+/*Form CSS*/
+/* label color */
+.input-field label {
+    color: #e57373;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #e57373;
 }
 
-*, *:after, *:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.cd-container {
-    /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
-    width: 90%;
-    max-width: 768px;
-    margin: 0 auto;
-    font-size: 1.5em;
-}
-.cd-container::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-.cd-main-content {
-    /* you need to assign a min-height to the main content so that the children can inherit it*/
-    height: 100%;
-    position: relative;
-    z-index: 1;
-}
-.cd-fixed-bg {
-    position: relative;
-    min-height: 75%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    z-index: 1;
-}
-.cd-fixed-bg h1, .cd-fixed-bg h2 {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    bottom: auto;
-    right: auto;
-    webkit-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -o-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    width: 90%;
-    max-width: 1170px;
-    text-align: center;
-    font-size: 2em;
-    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-    color: white;
-}
-.cd-fixed-bg.cd-bg-1 {
-    background-image: url("../img/fontainhead2.jpg");
-}
-@media only screen and (min-width: 320px) {
-    .cd-fixed-bg h1, .cd-fixed-bg h2 {
-        font-size: 36px;
-    }
-}
-@media only screen and (min-width: 480px) {
-    .cd-fixed-bg {
-        background-attachment: fixed;
-    }
-    .cd-fixed-bg h1, .cd-fixed-bg h2 {
-        font-size: 48px;
-        font-weight: 300;
-    }
-}
-.cd-scrolling-bg {
-    position: relative;
-    min-height: 50%;
-    padding: 4em 0;
-    line-height: 1.6;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    z-index: 2;
-}
-.cd-scrolling-bg.cd-color-1 {
-    background-color: #d1b73c;
-    color: #0a0a0a;
-}
-@media only screen and (min-width: 480px) {
-    .cd-scrolling-bg {
-        padding: 8em 0;
-        font-size: 1.25rem;
-        line-height: 2;
-        font-weight: 300;
-    }
-}
-.buttons {
-    background-color: #6bc8c9;
-    color: #ff513f;
-}
-.message-me {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #ff513f;
+.input-field textarea[class=materialize-textarea]:focus + label {
+    color: #e57373;
 }
 
-/*overrides the default bootstrap border color*/
-.local-tabs {
-    border-bottom: 1px solid #f95645;
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
 }
 
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
 
+.input-field input[type=tel]:focus {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
 
-
-
-
+.input-field textarea[class=materialize-textarea]:focus {
+    border-bottom: 1px solid #e57373;
+    box-shadow: 0 1px 0 0 #e57373;
+}
