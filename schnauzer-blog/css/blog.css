@@ -1,0 +1,74 @@
+body {
+    background-color: rgba(255, 214, 231, 0.52);
+}
+.background-img {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url("img/gold_dots.png");
+    background-size: cover;
+    background-position: center bottom;
+    z-index: -10;
+    opacity: 0.5;
+}
+.header {
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin: 40px 0;
+    padding: 0 30px;
+    background-color: #e2bb56;
+    z-index: 1;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5em;
+    padding: 0 50px;
+    clear: right;
+    z-index: 1;
+}
+#avatar {
+    padding: 10px;
+    float: left;
+    z-index: 1;
+}
+#posts {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Trirong', serif;
+    margin-top: 250px;
+    z-index: -3;
+}
+#side-bar {
+    position: fixed;
+    margin: 40px;
+}
+h5 {
+    margin-bottom: 2px;
+}
+h6 {
+    margin-top: 2px;
+}
+a {
+    color: #5a3e51;
+}
+.hidden-link {
+    position: relative;
+    top: -250px;
+    display: inline-block;
+    visibility: hidden;
+}
+#login {
+    z-index: 10;
+}
+#blog-form {
+    margin: auto;
+    width: 70%;
+}
+.btn-xs {
+    alignment: right;
+}
